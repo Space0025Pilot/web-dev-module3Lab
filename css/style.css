@@ -1,4 +1,25 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sender-column {
+  text-align: right;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+p,ul,ol,dl,address {
+  /* em at the end of 1.1 in the original however effects the size of the output to be larger than shown in the template output for expected*/
+  font-size: 1.1; 
+}
+
+p, li, dd, dt, address {
+  line-height: 1.5;
 }
